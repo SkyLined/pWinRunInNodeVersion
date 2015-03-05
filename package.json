@@ -6,7 +6,7 @@
     "version",
     "run"
   ],
-  "version": "0.0.2",
+  "version": "0.1.0",
   "author": {
     "name": "SkyLined",
     "email": "berendjanwever@gmail.com",
@@ -21,10 +21,10 @@
   },
   "main": "./pWinRunInNodeVersion.js",
   "bin": {
-    "node_x86": "./pWinRunInIA32NodeVersion.js",
-    "node_ia32": "./pWinRunInIA32NodeVersion.js",
-    "node_x64": "./pWinRunInX64NodeVersion.js",
-    "node_amd64": "./pWinRunInX64NodeVersion.js"
+    "node-x86": "./pWinRunInIA32NodeVersion.js",
+    "node-ia32": "./pWinRunInIA32NodeVersion.js",
+    "node-x64": "./pWinRunInX64NodeVersion.js",
+    "node-amd64": "./pWinRunInX64NodeVersion.js"
   },
   "engines": {
     "node": ">=0.7.0"

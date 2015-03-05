@@ -17,14 +17,14 @@ Getting Started
   
 2. Run your script in a specific Node.js processor architecture and version.
   
-  `node_ia32 0.9.9 your-script arguments...`
-  `node_x64 0.12.0 your-script arguments...`
+  `node-ia32 0.9.9 your-script arguments...`
+  `node-x64 0.12.0 your-script arguments...`
 
 Notes
 -----
 # Usage
-This program provides two short cuts: `node_ia32` and `node_x64` (and two
-aliases: `node_x86` and `node_amd64` respectively) that allow you to run the
+This program provides two short cuts: `node-ia32` and `node-x64` (and two
+aliases: `node-x86` and `node-amd64` respectively) that allow you to run the
 32- and 64-bit versions of Node.js. Note that you must be running a 64-bit
 version of Windows to run a 64-bit version of Node.js.
 
@@ -44,7 +44,7 @@ cached version will be used.
 All arguments passed after the version number will be passed to node.exe, so
 you can do:
   ```
-  C:\>node_x86 0.10.10 -v
+  C:\>node-x86 0.10.10 -v
   0.10.10
   
   C:\>
