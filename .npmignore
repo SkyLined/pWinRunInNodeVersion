@@ -43,4 +43,5 @@ Temporary Items
 .apdisk
 bin/
 npm-debug.log
-
+install.cmd
+publish.cmd

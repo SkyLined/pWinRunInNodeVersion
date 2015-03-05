@@ -1,0 +1,33 @@
+{
+  "name": "pwinruninnodeversion",
+  "description": "Program to run another Node.js program in any version of Node.js on Windows",
+  "keywords": [
+    "Node.js",
+    "version",
+    "run"
+  ],
+  "version": "0.0.1",
+  "author": {
+    "name": "SkyLined",
+    "email": "berendjanwever@gmail.com",
+    "url": "https://github.com/SkyLined"
+  },
+  "bugs": {
+    "url": "https://github.com/SkyLined/pWinRunInNodeVersion/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SkyLined/pWinRunInNodeVersion"
+  },
+  "main": "./pWinRunInNodeVersion.js",
+  "bin": {
+    "node_x86": "./pWinRunInIA32NodeVersion.js",
+    "node_ia32": "./pWinRunInIA32NodeVersion.js",
+    "node_x64": "./pWinRunInX64NodeVersion.js",
+    "node_amd64": "./pWinRunInX64NodeVersion.js"
+  },
+  "engines": {
+    "node": ">=0.7.0"
+  },
+  "license": "CC0-1.0"
+}
