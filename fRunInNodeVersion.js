@@ -1,3 +1,5 @@
+module.exports = fRunInNodeVersion;
+
 var oChildProcess = require("child_process"),
     oFS = require("fs"),
     oHTTPS = require("https"),
@@ -105,5 +107,3 @@ function fDownloadNodeExe(sProcessorArchitecture, sVersion, sFilePath, fCallback
 function fRunNodeExe(sFilePath, asArguments) {
   oChildProcess.spawn(sFilePath, asArguments, { "stdio": "inherit" });
 }
-
-module.exports = fRunInNodeVersion;
